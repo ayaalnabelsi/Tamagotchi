@@ -1,0 +1,47 @@
+body {
+    background-image: url('achtergrond.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    color:lightseagreen;
+}
+
+
+p {
+    color:palevioletred;
+    text-align: center;
+    font-size: larger;
+}
+
+a {
+    background-color: lightseagreen;
+    border: 3px solid palevioletred;
+    border-radius: 5em;
+    margin: 2em;
+    color: blanchedalmond;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#backgroundMusic {
+    background-color: palevioletred;
+    color: white;
+    border: 3px solid palevioletred;
+    width: 300px;
+    height: 4vh;
+    margin-bottom: 20px;
+}
+
